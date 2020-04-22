@@ -1,0 +1,23 @@
+//reciation 3 notes
+
+
+stack based array - if we know the size of the array before handed, we can use this
+    int arr[10];
+what if we don't know the size? we allocate memory dynamically in run time
+
+
+heap based array - dynamic memory, stored in the heap
+    int *p = new int[10]; //variable p contains memory of the first element
+- we use the new keyword
+- memory is allocated during run time
+- the size of the array can be a variable
+- if we are reading values from a file which can have any number of values, our array size has to be changed accordingly
+- for such case, we use dynamic memory
+
+
+int *p = new int[capacity];
+
+
+resize function
+
+int &capacity //pass by reference
